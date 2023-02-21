@@ -1,0 +1,44 @@
+body {
+  background-color: #dfe6eb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+video.top { 
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.title-text {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+div.section {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+hr {
+  position: relative;
+	height: 2px;
+	border-width: 0;
+	background-color: #00bcd4;
+	background-image: -webkit-linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+	background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+}
+
