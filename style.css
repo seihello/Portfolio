@@ -20,13 +20,13 @@ hr {
 	height: 2px;
 	border-width: 0;
 	background-color: #00bcd4;
-	background-image: -webkit-linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
 	background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
   margin-bottom: 1rem;
 }
 
 body {
-  background-color: #dfe6eb;
+  background-color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   line-height: 1.5em;
@@ -65,7 +65,7 @@ div.profile {
 .profile-image {
   width: 30%;
   height: auto;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0px 5px 50px 0 rgba(251, 251, 251, 0.5);
 }
 
 div.profile-text {
@@ -78,36 +78,125 @@ div.interest {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 1rem 1rem;
+  color: black;
+  margin-bottom: 0.5rem;
 }
 
 div.interest-item {
-  height: 3rem;
+  height: 2.5rem;
   text-align: center;
-  background-color: #e1f3ff;
-  border-left: solid 4px #668ad8;
+  background-color: #faecb2;
+  border-left: solid 4px #fea100;
   line-height: 3rem;
-  font-size: 1.2rem;
-  padding: 0 3rem;
+  font-size: 1rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.to-gallery {
+  padding-top: 3rem;
+  color:#60abf7;
+  text-decoration: none;
+}
+
+a.to-gallery:hover {
+  text-decoration: underline;
 }
 
 div.projects {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem 1rem;
 }
 
 div.project {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 0 0;
   width: 49%;
+  position: relative;
+}
+
+div.project-reversi {
+  height: 365px;
+}
+
+div.project-rpg {
+  height: 330px;
+}
+
+div.project-english {
+  height: 310px;
+}
+
+div.project-mario {
+  height: 305px;
+}
+
+div.project-strategy {
+  height: 260px;
+}
+
+div.project-chatbot {
+  height: 260px;
+}
+
+.project-link {
+  width: 100%;
 }
 
 .project-image {
   width: 100%;
   height: auto;
-  background-color: rgb(118, 118, 118);
+}
+
+.project-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.project-filter:hover {
+  opacity: 1;
+}
+
+div.project-name {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+div.project-langs {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  bottom: 0;
+}
+
+div.project-lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( 135deg, #ff3661 20%,#0D25B9 100%);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 70%;
+  padding: 0rem .8rem;
+  margin-right: .8rem;
 }
 
 div.skills {
@@ -118,13 +207,14 @@ div.skills {
 }
 
 div.skill {
-  width: 45%;
+  width: 28%;
   display: flex;
   justify-content: space-between;
 }
 
 div.skill-rate {
   color: rgb(255, 208, 0);
+  font-weight: bold;
 }
 
 div.experience-first {
@@ -136,14 +226,52 @@ div.experience-first {
 }
 
 div.experience-first h3 {
-  width: 50%;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+div.org-name {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 1rem;
+}
+
+a.link {
+  display: flex;
+  align-items: center;
+}
+
+img.link {
+  width: 1rem;
+  height: auto;
+}
+
+img.link:hover {
+  filter: invert(88%) sepia(100%) saturate(2929%) hue-rotate(200deg) brightness(200%) contrast(104%);
 }
 
 p.role {
   font-style: italic;
 }
+
+div.work-item {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 4rem;
+}
+
+div.work-description {
+  width: 60%;
+}
+
+img.work-image {
+  width: 20%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+
 
 div.contact {
   display: flex;
@@ -154,7 +282,7 @@ div.contact {
 
 div.contact-item {
   height: 3rem;
-  background-color: #e1f3ff;
+  background-color: #bee1f9;
   box-shadow: 3px 3px #60abf7;
   border-radius: 2rem;
   line-height: 3rem;
@@ -180,9 +308,29 @@ a.contact-link {
 footer {
   margin-top: 100px;
   height: 100px;
-  background-color: black;
+  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1.gallery-title {
+  text-align: center;
+  font-size: 10rem;
+  font-family: cursive;
+}
+
+div.gallery {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem 0;
+  margin: 10rem auto;
+}
+
+.gallery-image {
+  width: 32%;
+  height: auto;
 }
