@@ -179,6 +179,10 @@ img.link {
   height: auto;
 }
 
+img.link:hover {
+  filter: invert(88%) sepia(100%) saturate(2929%) hue-rotate(200deg) brightness(200%) contrast(104%);
+}
+
 p.role {
   font-style: italic;
 }
@@ -186,7 +190,7 @@ p.role {
 div.work-item {
   display: flex;
   justify-content: flex-start;
-  gap: 0 2rem;
+  gap: 0 4rem;
 }
 
 div.work-description {
