@@ -127,6 +127,24 @@ div.skill-rate {
   color: rgb(255, 208, 0);
 }
 
+div.experience-first {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+div.experience-first h3 {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.role {
+  font-style: italic;
+}
+
 footer {
   text-align: center;
 }
