@@ -79,6 +79,7 @@ div.interest {
   flex-wrap: wrap;
   gap: 1rem 1rem;
   color: black;
+  margin-bottom: 0.5rem;
 }
 
 div.interest-item {
@@ -92,6 +93,16 @@ div.interest-item {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a.to-gallery {
+  padding-top: 3rem;
+  color:#60abf7;
+  text-decoration: none;
+}
+
+a.to-gallery:hover {
+  text-decoration: underline;
 }
 
 div.projects {
