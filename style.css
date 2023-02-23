@@ -158,9 +158,25 @@ div.experience-first {
 }
 
 div.experience-first h3 {
-  width: 50%;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+div.org-name {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 1rem;
+}
+
+a.link {
+  display: flex;
+  align-items: center;
+}
+
+img.link {
+  width: 1rem;
+  height: auto;
 }
 
 p.role {
