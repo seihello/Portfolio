@@ -130,13 +130,13 @@ div.skill-rate {
 div.experience-first {
   display: flex;
   justify-content: flex-start;
-  gap: 0 10rem;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 div.experience-first h3 {
+  width: 50%;
   margin-top: 0;
   margin-bottom: 0;
 }
