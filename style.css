@@ -13,6 +13,7 @@ h2:hover {
 
 h3 {
   margin-top: 2rem;
+  margin-bottom: .5rem;
 }
 
 hr {
@@ -202,19 +203,45 @@ div.project-lang {
 div.skills {
   display: flex;
   justify-content: flex-start;
-  gap: 1rem 3rem;
+  gap: 1rem 1rem;
   flex-wrap: wrap;
 }
 
 div.skill {
-  width: 28%;
+  width: 18%;
+  height: 90px;
+  margin: 0 0;
+  background-color: black;
+  border:#00bcd4 solid 1px;
+  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
 }
 
-div.skill-rate {
-  color: rgb(255, 208, 0);
+div.skill:hover {
+  background-color: #00bcd4;
+}
+
+p.skill-name {
+  font-size: 1.3rem;
   font-weight: bold;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+p.skill-name-two-lines {
+  font-size: 1.2rem;
+  margin-bottom: .1rem;
+}
+
+p.skill-rate {
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: rgb(255, 208, 0);
 }
 
 div.experience-first {
