@@ -82,13 +82,16 @@ div.interest {
 }
 
 div.interest-item {
-  height: 3rem;
+  height: 2.5rem;
   text-align: center;
   background-color: #faecb2;
   border-left: solid 4px #fea100;
   line-height: 3rem;
-  font-size: 1.2rem;
-  padding: 0 3rem;
+  font-size: 1rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.projects {
@@ -120,6 +123,10 @@ div.project-mario {
 }
 
 div.project-strategy {
+  height: 260px;
+}
+
+div.project-chatbot {
   height: 260px;
 }
 
@@ -196,6 +203,7 @@ div.skill {
 
 div.skill-rate {
   color: rgb(255, 208, 0);
+  font-weight: bold;
 }
 
 div.experience-first {
@@ -263,7 +271,7 @@ div.contact {
 
 div.contact-item {
   height: 3rem;
-  background-color: #e1f3ff;
+  background-color: #bee1f9;
   box-shadow: 3px 3px #60abf7;
   border-radius: 2rem;
   line-height: 3rem;
