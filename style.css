@@ -108,9 +108,24 @@ div.project {
   width: 100%;
   height: auto;
   background-color: rgb(118, 118, 118);
-
 }
 
+div.skills {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem 3rem;
+  flex-wrap: wrap;
+}
+
+div.skill {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.skill-rate {
+  color: rgb(255, 208, 0);
+}
 
 footer {
   text-align: center;
