@@ -241,7 +241,7 @@ p.skill-rate {
   margin-top: 0;
   margin-left: 1rem;
   margin-right: 1rem;
-  color: rgb(255, 208, 0);
+  color: rgb(255, 226, 35);
 }
 
 div.experience-first {
@@ -360,4 +360,5 @@ div.gallery {
 .gallery-image {
   width: 32%;
   height: auto;
+  box-shadow: 3px 3px 10px rgba(251, 251, 251, 0.5);
 }
