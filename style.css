@@ -50,6 +50,12 @@ video.top {
   top: 100px;
   left: 50%;
   transform: translate(-50%, 0%);
+  transition: all 1s;
+  user-select: none;
+}
+
+.title-text:hover {
+  font-size: 5rem;
 }
 
 div.section {
@@ -340,25 +346,4 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h1.gallery-title {
-  text-align: center;
-  font-size: 10rem;
-  font-family: cursive;
-}
-
-div.gallery {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 1rem 0;
-  margin: 10rem auto;
-}
-
-.gallery-image {
-  width: 32%;
-  height: auto;
-  box-shadow: 3px 3px 10px rgba(251, 251, 251, 0.5);
 }
