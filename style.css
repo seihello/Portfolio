@@ -178,5 +178,11 @@ a.contact-link {
 }
 
 footer {
-  text-align: center;
+  margin-top: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
