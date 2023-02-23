@@ -145,6 +145,38 @@ p.role {
   font-style: italic;
 }
 
+div.contact {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem 1rem;
+  flex-wrap: wrap;
+}
+
+div.contact-item {
+  height: 3rem;
+  background-color: #e1f3ff;
+  box-shadow: 3px 3px #60abf7;
+  border-radius: 2rem;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+a.contact-link {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-image {
+  height: 70%;
+  width: auto;
+  margin: auto auto;
+}
+
 footer {
   text-align: center;
 }
