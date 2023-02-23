@@ -6,19 +6,12 @@ body {
 }
 
 h1.gallery-title {
+  margin-top: 270px;
+  margin-bottom: 360px;
   text-align: center;
   font-size: 10rem;
   font-family: cursive;
-  text-shadow: 
-    0 0 0.05em #ffee54,
-    0 0 0.06em #ffee54,
-    0 0 0.07em #ffee54,
-    0 0 0.08em #ffee54,
-    0 0 0.09em #ffee54,
-    0 0 0.20em #ffee54,
-    0 0 0.20em #ffee54,
-    0 0 0.20em #ffee54,
-    0 0 0.50em #ffee54;
+  text-shadow: 7px 7px 0em rgb(232, 232, 232);
   user-select: none;
 }
 
