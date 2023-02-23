@@ -183,6 +183,24 @@ p.role {
   font-style: italic;
 }
 
+div.work-item {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 2rem;
+}
+
+div.work-description {
+  width: 60%;
+}
+
+img.work-image {
+  width: 20%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+
+
 div.contact {
   display: flex;
   justify-content: flex-start;
