@@ -1,0 +1,42 @@
+body {
+  background-image: url(img/museum.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1.gallery-title {
+  margin-top: 270px;
+  margin-bottom: 360px;
+  text-align: center;
+  font-size: 10rem;
+  font-family: cursive;
+  text-shadow: 7px 7px 0em rgb(232, 232, 232);
+  user-select: none;
+}
+
+div.gallery {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: .5rem 0;
+  margin: 10rem auto;
+}
+
+.gallery-image {
+  width: 32%;
+  height: auto;
+  box-shadow: 3px 3px 10px rgba(251, 251, 251, 0.5);
+  border: rgb(238, 238, 238) solid 5px;
+}
+
+footer {
+  margin-top: 100px;
+  height: 100px;
+  background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
