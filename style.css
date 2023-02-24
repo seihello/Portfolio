@@ -52,11 +52,7 @@ video.top {
   transform: translate(-50%, 0%);
   transition: all 1s;
   user-select: none;
-}
-
-.title-text:hover {
-  font-size: 5rem;
-  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+  text-shadow: #6f6f6f 1px 1px 5px;
 }
 
 div.section {
@@ -251,6 +247,7 @@ p.skill-rate {
   margin-left: 1rem;
   margin-right: 1rem;
   color: rgb(255, 226, 35);
+  user-select: none;
 }
 
 div.experience-first {
