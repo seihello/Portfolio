@@ -123,37 +123,13 @@ div.project {
   position: relative;
 }
 
-div.project-reversi {
-  height: 365px;
-}
-
-div.project-rpg {
-  height: 330px;
-}
-
-div.project-english {
-  height: 310px;
-}
-
-div.project-mario {
-  height: 305px;
-}
-
-div.project-strategy {
-  height: 260px;
-}
-
-div.project-chatbot {
-  height: 260px;
-}
-
 .project-link {
   width: 100%;
 }
 
 .project-image {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .project-filter {
