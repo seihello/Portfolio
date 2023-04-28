@@ -281,8 +281,6 @@ img.work-image {
   margin-top: 2rem;
 }
 
-
-
 div.contact {
   display: flex;
   justify-content: flex-start;
@@ -324,4 +322,74 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width:1440px) {
+  .title-text {
+    font-size: 1.2rem;
+    top: 80px;
+  }
+  div.section {
+    width: 90%;
+  }
+  
+  div.profile {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    width: 100%;
+  }
+
+  div.profile-text {
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 0;
+
+  }
+
+  div.interest {
+    justify-content: center;
+  }
+
+  div.project {
+    width: 100%;
+  }
+
+  div.skills {
+    gap: 1rem 0;
+  }
+  
+  div.skill {
+    width: 30%;
+    margin: 0 1%;
+  }
+
+  div.experience-first {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  div.work-item {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  div.work-description {
+    width: 100%;
+  }
+
+  img.work-image {
+    width: 100%;
+    height: auto;
+  }
+
+  div.org-name {
+    width: 100%;
+
+  }
 }
