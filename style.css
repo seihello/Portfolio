@@ -246,24 +246,28 @@ p.skill-name-two-lines {
   background-color: #f6a235;
   border-radius: 5px 0 0 5px;
   transition-property: width;
-  animation-duration: 1.5s;
 }
 
 .rate20 {
   width: 20%;
+  animation-duration: .3s;
 }
 .rate40 {
   width: 40%;
+  animation-duration: .6s;
 }
 .rate60 {
   width: 60%;
+  animation-duration: .9s;
 }
 .rate80 {
   width: 80%;
+  animation-duration: 1.2s;
 }
 .rate100 {
   width: 100%;
   border-radius: 5px;
+  animation-duration: 1.5s;
 }
 
 @keyframes rateUntil20 {
