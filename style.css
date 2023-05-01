@@ -244,7 +244,7 @@ p.skill-name-two-lines {
   width: 100%;
   height: 1rem;
   border: 2px solid #9d876a;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .skill-rate {
