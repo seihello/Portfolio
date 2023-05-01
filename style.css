@@ -206,21 +206,15 @@ div.project-lang {
 div.skills {
   display: flex;
   justify-content: flex-start;
-  gap: 1rem 1rem;
+  gap: 0rem 5rem;
   flex-wrap: wrap;
 }
 
 div.skill {
-  width: 16%;
+  width: 35%;
   height: 75px;
   margin: 0 0;
-  border: 3px solid #613d0a;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: all .3s;
 }
 
 div.skill:hover {
@@ -230,7 +224,6 @@ div.skill:hover {
 p.skill-name {
   font-size: 1rem;
   margin-bottom: .3rem;
-  text-align: center;
 }
 
 p.skill-name-two-lines {
@@ -239,13 +232,36 @@ p.skill-name-two-lines {
   line-height: 1.2rem;
 }
 
-p.skill-rate {
-  margin-top: 0;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.skill-rate-box {
+  width: 100%;
+  height: 1rem;
+  border: 2px solid #9d876a;
+  border-radius: 5px;
+}
+
+.skill-rate {
+  height: 100%;
   color: rgb(206, 171, 0);
   user-select: none;
-  text-shadow: 1px 1px 1px #b6b5b1;
+  background-color: #f6a235;
+  border-radius: 5px 0 0 5px;
+}
+
+.rate20 {
+  width: 20%;
+}
+.rate40 {
+  width: 40%;
+}
+.rate60 {
+  width: 60%;
+}
+.rate80 {
+  width: 80%;
+}
+.rate100 {
+  width: 100%;
+  border-radius: 5px;
 }
 
 div.experience-first {
