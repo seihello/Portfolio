@@ -243,10 +243,10 @@ p.skill-name-two-lines {
 
 .skill-rate {
   height: 100%;
-  color: rgb(206, 171, 0);
-  user-select: none;
   background-color: #f6a235;
   border-radius: 5px 0 0 5px;
+  transition-property: width;
+  animation-duration: 1.5s;
 }
 
 .rate20 {
@@ -264,6 +264,51 @@ p.skill-name-two-lines {
 .rate100 {
   width: 100%;
   border-radius: 5px;
+}
+
+@keyframes rateUntil20 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 20%;
+  }
+}
+
+@keyframes rateUntil40 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 40%;
+  }
+}
+
+@keyframes rateUntil60 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 60%;
+  }
+}
+
+@keyframes rateUntil80 {
+  from {
+      width: 0;
+  }
+  to {
+      width: 80%;
+  }
+}
+
+@keyframes rateUntil100 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 div.experience-first {
