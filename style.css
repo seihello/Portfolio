@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+:root {
+  --main-beige: #d3c29e;
+  --main-brown: #613d0a;
+
+}
+
 * {
   font-family: 'Lexend Deca', sans-serif;
   box-sizing: border-box;
@@ -10,7 +16,7 @@ h2 {
   margin-bottom: 0;
   margin-top: 3rem;
   padding: .8rem 1rem;
-  border: 3px solid #613d0a;
+  border: 3px solid var(--main-brown);
 
   position: relative;
 }
@@ -18,8 +24,8 @@ h2 {
 h2::after {
   width: 100%;
   height: 100%;
-  background-color: #d3c29e;
-  border: 3px solid #d3c29e;
+  background-color: var(--main-beige);
+  border: 3px solid var(--main-beige);
   position: absolute;
   top: 2px;
   left: 2px;
@@ -36,7 +42,7 @@ hr {
   position: relative;
 	height: 2px;
 	border-width: 0;
-	background-color: #613d0a;
+	background-color: var(--main-brown);
   margin-bottom: 1rem;
 }
 
@@ -51,7 +57,7 @@ body {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #613d0a;
+  color: var(--main-brown);
 }
 
 .line {
@@ -386,7 +392,7 @@ div.contact {
 button.contact-item {
   width: 170px;
   height: 3rem;
-  border: 3px solid #613d0a;
+  border: 3px solid var(--main-brown);
   box-shadow: 3px 3px 0px #b29f77;
   border-radius: 2rem;
   line-height: 3rem;
@@ -404,7 +410,7 @@ button.contact-item:active {
 }
 
 div.contact-item:hover {
-  background-color: #d3c29e;
+  background-color: var(--main-beige);
 }
 
 a.contact-link {
@@ -421,7 +427,7 @@ a.contact-link {
 footer {
   margin-top: 150px;
   height: 100px;
-  background-color: #d3c29e;
+  background-color: var(--main-beige);
   display: flex;
   justify-content: center;
   align-items: center;
